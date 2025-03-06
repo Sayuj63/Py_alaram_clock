@@ -1,67 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python Alarm Clock</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #2C2F33;
-            color: #FFFFFF;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            color: #00FFFF;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #191970;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-        }
-        code {
-            background: #000;
-            color: #0f0;
-            padding: 5px;
-            border-radius: 5px;
-            display: block;
-            text-align: left;
-            white-space: pre-wrap;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Python Alarm Clock</h1>
-        <p>A feature-rich alarm clock built using Python and Tkinter.</p>
-        <h2>Features</h2>
-        <ul>
-            <li>Set multiple alarms</li>
-            <li>Custom alarm sounds</li>
-            <li>Analog clock display</li>
-            <li>Dark/Light mode toggle</li>
-            <li>Puzzle-based alarm stop mechanism</li>
-        </ul>
-        <h2>Installation</h2>
-        <p>Clone the repository and install dependencies:</p>
-        <code>
-            git clone https://github.com/yourusername/alarm-clock.git
-            cd alarm-clock
-            pip install playsound
-        </code>
-        <h2>Usage</h2>
-        <p>Run the script:</p>
-        <code>python alarm_clock.py</code>
-        <h2>Preview</h2>
-        <img src="/Users/sayujpillai/Desktop/Alaram_clock/screenshot.jpeg" alt="Alarm Clock UI" width="100%">
-        <h2>Contributing</h2>
-        <p>Feel free to contribute by submitting issues and pull requests.</p>
-        <h2>License</h2>
-        <p>MIT License</p>
-    </div>
-</body>
-</html>
+<div align="center">
+  <h1>⏰ Python Alarm Clock</h1>
+  <p>An interactive alarm clock with puzzle-solving to dismiss alarms.</p>
+</div>
+
+<h2>🌟 Features</h2>
+<ul>
+  <li>Set multiple alarms with customizable sound.</li>
+  <li>Puzzle-based alarm dismissal to ensure you wake up.</li>
+  <li>Analog clock display with real-time updates.</li>
+  <li>Dark mode & light mode toggle for better user experience.</li>
+  <li>Plays custom alarm sounds (MP3/WAV).</li>
+  <li>User-friendly interface with Tkinter.</li>
+</ul>
+
+<h2>🛠️ Installation</h2>
+<p>Clone the repository and install dependencies:</p>
+
+<pre><code>git clone https://github.com/YourUsername/AlarmClock.git
+cd AlarmClock
+pip install -r requirements.txt</code></pre>
+
+<h2>⚙️ Configuration</h2>
+<p>Ensure you have <code>playsound</code> installed for audio support:</p>
+
+<pre><code>pip install playsound</code></pre>
+
+<h2>🚀 Usage</h2>
+<p>Run the alarm clock application:</p>
+
+<pre><code>python alarm_clock.py</code></pre>
+
+<h3>⏲️ Setting an Alarm:</h3>
+<ul>
+  <li>Enter the alarm time in <code>HH:MM:SS</code> format.</li>
+  <li>Select an alarm sound.</li>
+  <li>Click <strong>"Add Alarm"</strong>.</li>
+</ul>
+
+<h3>🧩 Solving the Puzzle:</h3>
+<ul>
+  <li>When an alarm rings, a <strong>math puzzle</strong> pops up.</li>
+  <li>Solve it correctly to stop the alarm!</li>
+</ul>
+
+<h2>🏗️ Project Structure</h2>
+<ul>
+  <li><code>alarm_clock.py</code> - Main application script.</li>
+  <li><code>requirements.txt</code> - Required dependencies.</li>
+</ul>
+
+<h2>🔍 Dependencies</h2>
+<ul>
+  <li><code>tkinter</code> - GUI framework</li>
+  <li><code>playsound</code> - Alarm sound playback</li>
+  <li><code>datetime</code> - Time handling</li>
+  <li><code>threading</code> - Alarm checking thread</li>
+</ul>
+
+<h2>⚠️ Error Handling</h2>
+<ul>
+  <li>Prevents duplicate alarms.</li>
+  <li>Handles invalid time formats.</li>
+  <li>Displays error messages for incorrect puzzle answers.</li>
+</ul>
+
+<h2>📝 License</h2>
+<p>MIT</p>
+
+<h2>🤝 Contributing</h2>
+<p>Feel free to submit issues and enhancement requests!</p>
+
+<div align="center">
+  <p>Made with ❤️ by Sayuj Pillai</p>
+</div>
